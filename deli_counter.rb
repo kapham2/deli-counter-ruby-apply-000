@@ -2,8 +2,8 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    print "The line is currently: "
-    array.each_index{|a| print "#{a+1}. " + array[a]}
+    str = "The line is currently: "
+    array.each_index{|a| str+= "#{a+1}. " + array[a]}
   end
 end
 
