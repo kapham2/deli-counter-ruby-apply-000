@@ -12,6 +12,6 @@ def take_a_number(array, str)
   puts str
 end
 
-take_a_number(katz_deli, "TOMMY")
-take_a_number(katz_deli, "samba")
+#take_a_number(katz_deli, "TOMMY")
+#take_a_number(katz_deli, "samba")
 line(katz_deli)
