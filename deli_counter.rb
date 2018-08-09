@@ -3,6 +3,7 @@
 katz_deli = []
 
 def line(array)
+  print "The line is currently: "
   array.each{|a| print "#{array.index(a)+1}. " + a}
 end
 
