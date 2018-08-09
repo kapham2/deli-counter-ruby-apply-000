@@ -16,6 +16,11 @@ def take_a_number(array, str)
   puts "Welcome, " + str + ". You are number #{array.count} in line."
 end
 
+def now_serving(array)
+  puts "Currently serving " + array[0]
+end
+
 take_a_number(katz_deli, "TOMMY")
 take_a_number(katz_deli, "samba")
 line(katz_deli)
+now_serving(katz_deli)
