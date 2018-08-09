@@ -25,8 +25,8 @@ def now_serving(array)
   end
 end
 
-take_a_number(katz_deli, "TOMMY")
-take_a_number(katz_deli, "samba")
+take_a_number(katz_deli, "ada")
+take_a_number(katz_deli, "grace")
 take_a_number(katz_deli, "Milo")
 line(katz_deli)
 now_serving(katz_deli)
