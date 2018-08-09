@@ -18,6 +18,7 @@ end
 
 def now_serving(array)
   puts "Currently serving " + array[0] + "."
+  array.
 end
 
 take_a_number(katz_deli, "TOMMY")
