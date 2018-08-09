@@ -8,10 +8,10 @@ def line(array)
   end
 end
 
-#def take_a_number(array, str)
-#  array.push(str)
-#  puts "\nWelcome, " + str + ". You are number #{array.count} in line."
-#end
+def take_a_number(array, str)
+  array.push(str)
+  puts "Welcome, " + str + ". You are number #{array.count} in line."
+end
 #
 #def now_serving(array)
 #  if array.empty?
