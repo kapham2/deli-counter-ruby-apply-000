@@ -1,5 +1,3 @@
-# Write your code here.
-
 def line(array)
   if array.empty?
     puts "\nThe line is currently empty."
