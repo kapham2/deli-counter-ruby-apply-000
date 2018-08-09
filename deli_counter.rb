@@ -4,8 +4,10 @@ katz_deli = []
 
 def line(array)
   if array.empty?
-  print "The line is currently:"
-  array.each_index{|a| print " #{a+1} " + array[a]}
+    print "The line is currently empty."
+  else
+    print "The line is currently:"
+    array.each_index{|a| print " #{a+1} " + array[a]}
 end
 
 def take_a_number(array, str)
