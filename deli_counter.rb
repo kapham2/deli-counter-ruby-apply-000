@@ -12,4 +12,4 @@ end
 #  puts str
 #end
 
-puts line(katz_deli,"Tommy")
+puts line(katz_deli)
