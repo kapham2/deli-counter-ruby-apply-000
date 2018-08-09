@@ -33,4 +33,4 @@ take_a_number(katz_deli,"matz")
 line(katz_deli)
 now_serving(katz_deli)
 line(katz_deli)
-now_serving(katz
+now_serving(katz)
