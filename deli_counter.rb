@@ -20,3 +20,4 @@ end
     array.shift
 #  end
 #end
+katz_deli = []
