@@ -3,7 +3,7 @@
 katz_deli = []
 
 def line(array)
-  array.
+  array.each{
   puts 
 end
 
