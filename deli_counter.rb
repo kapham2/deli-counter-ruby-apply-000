@@ -4,6 +4,7 @@ katz_deli = []
 
 def line(array)
   []
+  puts array
 end
 
 def take_a_number(array, str)
