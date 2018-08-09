@@ -12,14 +12,14 @@ def take_a_number(array, str)
   array.push(str)
   puts "Welcome, " + str + ". You are number #{array.count} in line."
 end
-#
-#def now_serving(array)
-#  if array.empty?
-#    puts "\nThere is nobody waiting to be served!"
-#  else
-#    puts "\nCurrently serving " + array[0] + "."
-#    array.shift
-#  end
-#end
+
+def now_serving(array)
+  if array.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving " + array[0] + "."
+    array.shift
+  end
+end
 
 katz_deli = []
