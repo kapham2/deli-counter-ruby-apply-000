@@ -3,7 +3,7 @@
 katz_deli = []
 
 def line(array)
-  array.each{|a| print "#{array.index(a)+1}" + " " + a}
+  array.each{|a| print "#{array.index(a)+1}. " + a}
 end
 
 def take_a_number(array, str)
