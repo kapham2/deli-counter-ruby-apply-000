@@ -13,7 +13,7 @@ end
 
 def take_a_number(array, str)
   array.push(str)
-  puts str
+  puts "Welcome, " + str + ". You are number #{array.count} in line."
 end
 
 take_a_number(katz_deli, "TOMMY")
