@@ -8,6 +8,7 @@ def line(array)
   else
     puts "The line is currently:"
     array.each_index{|a| puts "#{a+1}. " + array[a]}
+  end
 end
 
 def take_a_number(array, str)
