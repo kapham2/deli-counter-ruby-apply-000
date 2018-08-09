@@ -12,4 +12,5 @@ def take_a_number(array, str)
   puts str
 end
 
-puts line(katz_deli)
+take_a_numbe(katz_deli), "TOMMY")
+line(katz_deli)
