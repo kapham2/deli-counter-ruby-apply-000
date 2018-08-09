@@ -5,7 +5,6 @@ katz_deli = []
 def line(array)
   print "The line is currently:"
   array.each_index{|a| print " #{a+1} " + array[a]}
-  
 end
 
 def take_a_number(array, str)
