@@ -17,7 +17,8 @@ end
 #    puts "\nThere is nobody waiting to be served!"
 #  else
 #    puts "\nCurrently serving " + array[0] + "."
-    array.shift
+#    array.shift
 #  end
 #end
+
 katz_deli = []
