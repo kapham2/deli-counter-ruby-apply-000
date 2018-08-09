@@ -2,7 +2,7 @@
 
 katz_deli = []
 
-def line()
+def line(array)
   []
 end
 
